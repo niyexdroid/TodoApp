@@ -1,0 +1,38 @@
+.item {
+  width: 500px;
+  margin: 0 auto;
+  color: #353935;
+  font-size: 20px;
+}
+
+.itemname {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.delbutton {
+  float: right;
+  padding: 6px 14px;
+  border: none;
+  background-color: #dcc9b6;
+  color: #f4f4f4;
+  cursor: pointer;
+  margin-top: -5px;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.delbutton:hover {
+  background-color: red;
+  color: #dcc9b6;
+}
+
+.completed {
+  /* text-decoration: line-through; */
+  color: green;
+  cursor: pointer;
+}
